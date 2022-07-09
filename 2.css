@@ -143,6 +143,63 @@ section {
 	line-height: 100vh;
 	text-align: center;
 }
+.start{
+    /* position:absolute;
+    left:40%;
+    top:00%; */
+	font-size:30px;
+	color:rgb(255, 255, 255);
+	background:linear-gradient(
+	to right bottom,
+	rgba(255, 255, 255, 0.6),
+	rgba(0, 0, 0, 0.1)
+	);
+	background-color:#cbd836;
+	opacity:0.7;
+	border-radius:20px;
+	height:30px;
+	line-height:30px;
+	width:100px;
+	text-align:center;
+	margin:0 auto;
+	padding:00px;
+	box-shadow:rgba(0,0,0,0.5) 3px 3px 4px;
+	position:relative;
+}
+.start a{
+	text-decoration:none;
+	color:rgb(0, 0, 0);
+}
+.mask{
+	position:absolute;
+	display:block;
+	height:0;
+	background-color: #22067b;
+	opacity:1;
+	width:0;
+	left:50%;
+	top:50%;
+	border-radius:50%;
+}
+.start:hover .mask{
+	animation-name:animation;
+	animation-duration:1s;
+}
+@Keyframes animation{
+	from{
+		width:1px;
+		height:1px;
+		transform:scale(0);
+		opacity:1;
+	}
+	to{
+		width:1px;
+		height:1px;
+		transform:scale(100);
+		opacity:0;
+	}
+}
+
 
 .g-word{
 	background:linear-gradient(
