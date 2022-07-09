@@ -1,0 +1,300 @@
+body {
+    /* height: 100vh; */
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.5))), url("./image/41.gif");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("./image/41.gif");
+    background-size: cover;
+    background-position: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url("./image/31.jpg");
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 10;
+    padding: 20px 100px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    overflow: hidden;
+    border-bottom: double white 1px;
+    /*border-radius:30px;*/
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.nav-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-brand {
+    font-family: "新宋体";
+    font-size: 30px;
+    font-weight: bold;
+    height: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.navbar-brandE {
+    font-family: "Times New Roman";
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.font-special {
+    font-family: 宋体, 新宋体, sans-serif;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    font-weight: 400;
+    margin-left: 15px;
+    transition: all .5s linear;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+header ul li:hover {
+    background: #497271;
+    color: #2b1055;
+}
+
+header ul li.active {
+    background: #497271;
+    color: #2b1055;
+}
+
+a:link,
+a:visited {
+    color: #FFF;
+    text-decoration: none;
+}
+
+/* .bg {
+    height: 100vh;
+    background-image: url("./image/41.gif");
+} */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#courses {
+    margin-top: 20%;
+    text-align: center;
+
+  }
+  
+  #courses h1 {
+    font-size: 2rem;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+   
+  }
+  
+  #courses p {
+    color: rgb(255, 255, 255);
+    font-size: .9rem;
+    line-height: 1.5rem;
+    padding: 0rem;
+  }
+  @keyframes test{
+    from
+    {
+        margin-left :-600px;;
+    }
+    to
+    {
+        margin-left:70px;
+    }
+ 
+  }
+  @keyframes test1{
+    from
+    {
+        right :-40%;
+    }
+    to
+    {
+       right:10%;
+    }
+ 
+  }
+  #courses .tt{
+  
+    height: 70vh;
+
+    background-image:url( "./image/12.jpg");
+    margin-top: -4%;
+    height: 50vh;
+    margin-left:70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name:test;
+    animation-duration:2s;
+    animation-delay:0s;
+    animation-timing-function:ease;
+  }
+  #courses .head{
+  
+    position: absolute ;
+    margin-top: 1%;
+    background-color: rgb(24, 62, 123);
+    right:-40%;
+  
+    animation-name:test1;
+    animation-duration:2s;
+    animation-delay:0s;
+    animation-timing-function:ease;
+    animation-fill-mode:forwards;
+   
+  }
+
+
+  #courses {
+    margin-top: 18%;
+    text-align: center;
+
+  }
+  
+  #courses h1 {
+    font-size: 2rem;
+    text-shadow: 3px 3px 5px rgba(255, 255, 255, 0.5);
+   
+  }
+  
+  #courses p {
+    color: rgb(255, 255, 255);
+    font-size: .9rem;
+    line-height: 1.5rem;
+    padding: 0rem;
+  }
+  @keyframes test{
+    from
+    {
+        margin-left :-600px;;
+    }
+    to
+    {
+        margin-left:70px;
+    }
+ 
+  }
+  @keyframes test1{
+    from
+    {
+        right :-40%;
+    }
+    to
+    {
+       right:10%;
+    }
+ 
+  }
+  #courses .tt{
+  
+    height: 70vh;
+
+    background-image:url( "./image/43.png");
+    margin-top: -4%;
+    height: 50vh;
+    margin-left:70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name:test;
+    animation-duration:2s;
+    animation-delay:0s;
+    animation-timing-function:ease;
+  }
+  #courses .head{
+  
+    position: absolute ;
+    margin-top: 1%;
+    background-color: rgb(99, 135, 192);
+    right:-40%;
+  
+    animation-name:test1;
+    animation-duration:2s;
+    animation-delay:0s;
+    animation-timing-function:ease;
+    animation-fill-mode:forwards;
+   
+  }
+
+  .start{
+    /* position:absolute;
+    left:10%;
+    top:80%; */
+	font-size:25px;
+  
+	color:rgb(255, 255, 255);
+	background:linear-gradient(
+	to right bottom,
+	rgba(255, 255, 255, 0.6),
+	rgba(0, 0, 0, 0.1)
+	);
+	background-color:#110a40;
+	opacity:0.7;
+	border-radius:10px;
+	height:35px;
+	line-height:20px;
+	width:75px;
+	text-align:center;
+	margin:0 auto;
+	padding:02px;
+	box-shadow:rgba(0,0,0,0.5) 3px 3px 4px;
+	position:relative;
+}
+.start a{
+	text-decoration:none;
+	color:rgb(0, 0, 0);
+}
+.mask{
+	position:absolute;
+	display:block;
+	height:0;
+	background-color:rgb(255, 255, 255);
+	opacity:1;
+	width:0;
+	left:50%;
+	top:50%;
+	border-radius:50%;
+}
+.start:hover .mask{
+	animation-name:animation;
+	animation-duration:1s;
+}
+@Keyframes animation{
+	from{
+		width:1px;
+		height:1px;
+		transform:scale(0);
+		opacity:1;
+	}
+	to{
+		width:1px;
+		height:1px;
+		transform:scale(100);
+		opacity:0;
+	}
+}

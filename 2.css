@@ -1,0 +1,156 @@
+header {
+    /* position:fixed; */
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 10;
+    padding: 20px 100px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    overflow: hidden;
+	border-bottom: double white 1px;
+	/*border-radius:30px;*/
+	background-color:rgba(0,0,0,0.5);
+}
+.nav-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-brand  {
+	font-family:"新宋体";
+    font-size: 30px;
+    font-weight: bold;
+	height:30px;
+	color:rgb(255, 255, 255);
+}
+
+.navbar-brandE {
+	font-family:"Times New Roman";
+    font-size: 20px;
+	font-weight:700;
+	color:rgb(255, 255, 255);
+	text-align: center;
+}
+.font-special {
+    font-family: 宋体, 新宋体, sans-serif;
+}
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    font-weight: 400;
+    margin-left: 15px;
+    transition: all .5s linear;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+header ul li:hover {
+    background: #497271;
+    color: #2b1055;
+}
+
+header ul li.active {
+    background:#497271;
+    color: #2b1055;
+}
+a:link,a:visited{
+	color:rgb(255, 255, 255);
+	text-decoration:none;
+}
+
+.bg{
+    height: 100vh;
+    background-image: url("./image/200.jpg");
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section {
+    height: 100vh;
+    color:rgb(20, 0, 133);
+    background-color: #ffffff;
+    font-size: 10vh;
+}
+.g-word{
+	/* color:#106a8e; */
+	line-height: 100vh;
+	text-align: center;
+}
+.g-word2{
+	height:480px;
+}
+
+.g-word2 h2{
+	font-size:36px;
+	text-align: center;
+	margin-top:45px;
+}
+.introduce{
+	font-size:24px;
+	margin:40px 60px;
+}
+
+
+.g-img1 {
+    background-image:url("./image/21.jpg");
+    color:rgb(232, 47, 47);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+	line-height: 100vh;
+	text-align: center;
+}
+
+.g-img2 {
+    background-image:url("./image/22.jpg");
+    color:rgb(221, 255, 0);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+	line-height: 100vh;
+	text-align: center;
+}
+
+.g-img3 {
+    background-image:url("./image/23.jpg");
+    color:rgb(230, 0, 199);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+	line-height: 100vh;
+	text-align: center;
+}
+
+.g-img4 {
+    background-image:url("./image/24.jpg");
+    color:rgb(255, 0, 0);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+	line-height: 100vh;
+	text-align: center;
+}
+
+.g-word{
+	background:linear-gradient(
+	to right bottom,
+	rgba(255,255,255,0.4),
+	rgba(255,255,255,0.1)
+	);
+}
+
+
+
